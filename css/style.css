@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  height: 7vh;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 1%;
+}
+h1 {
+  color: white;
+}
+
+img.logo {
+  width: 30px;
+  height: 30px;
+}
+
+nav {
+  display: flex;
+  gap: 5%;
+  align-items: center;
+}
+.nav-right-icons {
+  display: flex;
+  align-items: center;
+  gap: 10%;
+}
+
+.div-notification {
+  display: flex;
+  justify-content: center;
+  border: 1px;
+  border-radius: 50%;
+  width: 40px;
+  aspect-ratio: 1/1;
+  overflow: hidden;
+  background-color: lightgray;
+  padding-top: 10px;
+}
+
+.nav-notification {
+  width: 40px;
+  aspect-ratio: 1/1;
+}
+
+.div-avatar {
+  border: 1px;
+  border-radius: 50%;
+  width: 40px;
+  aspect-ratio: 1/1;
+  overflow: hidden;
+}
+
+img.nav-avatar {
+  object-fit: cover;
+  width: 40px;
+  aspect-ratio: 1/1;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: blueviolet;
+  height: 35vh;
+}
+
+.welcome {
+  width: 30%;
+  height: 35vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3%;
+}
+
+.welcome-buttons {
+  display: flex;
+  justify-content: flex-start;
+  gap: 0.5%;
+}
+
+.hero {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div.hero > img {
+  height: 35vh;
+}
+
+div.bar {
+  height: 10vh;
+  border-bottom: 2px solid lightgrey;
+}
+
+div.bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.camera,
+div.expert,
+div.lifetime {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25vw;
+  gap: 5%;
+}
+
+div.icon-camera,
+div.icon-people,
+div.icon-time {
+  height: 40px;
+  aspect-ratio: 1/1;
+  border: 1px;
+  border-radius: 50%;
+  background-color: rgb(238, 207, 195);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-bar {
+  height: 12px;
+  color: blue;
+}
+
+.text-bar {
+  font-size: 8pt;
+  width: 20vw;
+  color: grey;
+}
+
+big {
+  font-size: 10pt;
+  font-weight: bold;
+  color: black !important;
+}
